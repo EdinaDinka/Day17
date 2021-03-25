@@ -1,0 +1,71 @@
+
+body {
+    background-image: url("https://image.ibb.co/cO9Lxq/login-bg.jpg");
+}
+
+h1 {
+    color: white;
+    text-align:right;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+  .wrapper {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /*input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  button {
+    background-color: #353099;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  } */
+
+  #left {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  #signin {
+    flex-direction: column;
+    flex: auto;
+    justify-content: center;
+    padding-bottom: 12px;
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .logo {
+    margin-bottom: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  form {
+    display: block;
+    margin-top: 0em;
+    width: 80%;
+}
+
